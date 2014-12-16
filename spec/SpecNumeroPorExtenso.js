@@ -31,4 +31,12 @@ describe("Numero por extenso",function(){
         expect(numeroPorExtenso.converteNumero(29)).toBe("vinte e nove");
     })
     
+    it("deve retornar o numero cinquenta e nove por extenso",function(){
+        expect(numeroPorExtenso.converteNumero(59)).toBe("cinquenta e nove");
+    })
+    
+    it("deve retornar o numero 129 por extenso",function(){
+        expect(numeroPorExtenso.converteNumero(129)).toBe("cento e vinte e nove");
+    })
+    
 })
